@@ -1,13 +1,87 @@
 @charset "utf-8"
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul,li{
-list-style: none;
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-a{
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* 전체 */
+.wrap {
+  width: 960px;
+  background-color: antiquewhite;
+  margin: auto;
+}
+.navi {
+  padding: 10px 0;
+  background-color: whitesmoke;
+  border-bottom: 1px solid #333;
+}
+.navi ul {
+  width: 600px;
+  display: flex;
+  margin: auto;
+  background-color: transparent;
+}
+
+.navi ul li {
+  width: calc(100% / 4);
+  text-align: center;
+}
+.navi ul li > a {
+  display: block;
+  /* line-height: 60px; */
+  padding: 20px 0;
+}
+.navi ul li > a:hover {
+  background-color: darkcyan;
+  color: #fff;
+  border-radius: 70px;
+}
+/* t.t 왜 움직일까 */
+/* .navi ul li:nth-child(3) :hover{
+    background-color: #ffffff;
     color: #333;
-    text-decoration: none;
+    width: 170px;
+}  */
+/* .navi ul li:nth-child(3) {
+    color: #333;
+    width: 170px;
+}  */
+
+  /* ㅎㅎ 안댐.. 됐다 !띄워쓰기 중요*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(239, 255, 252, 0.747);
+  gap: 200px;
+  padding: 20px 0;
+}
+.contents {
+  width: 400px;
+  border: 1px solid #333;
+  background-color: lightyellow;
+  padding: 20px;
+  border-radius: 30px;
+}
+#intro:target{
+background-color: lightseagreen;
+color: #fff;
+}
+#room:target{
+background-color: lightseagreen;
+color: #fff;
+}
+#reservation:target{
+background-color: lightseagreen;
+color: #fff;
 }
