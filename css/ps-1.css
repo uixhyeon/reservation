@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url(main.css);
 * {
   margin: 0;
   padding: 0;
@@ -7,26 +8,31 @@
 ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   color: #333;
   text-decoration: none;
 }
-/* 전체 레이아웃 */
+/* 전체 */
 .wrap {
   width: 960px;
+  background-color: antiquewhite;
   margin: auto;
 }
-.navi{
-    background-color: #fff;
-    padding: 10px 0;
-    border-bottom: 1px solid #333;
+.navi {
+  padding: 10px 0;
+  background-color: whitesmoke;
+  border-bottom: 1px solid #333;
 }
 .navi ul {
   width: 600px;
   display: flex;
   margin: auto;
+  background-color: transparent;
 }
+
 .navi ul li {
   width: calc(100% / 4);
   text-align: center;
@@ -35,11 +41,45 @@ a {
   display: block;
   /* line-height: 60px; */
   padding: 20px 0;
-  background-color: rgb(214, 214, 255);
 }
 .navi ul li > a:hover {
-  background-color: blue;
+  background-color: rgba(0, 139, 139, 0.815);
   color: #fff;
+  border-radius: 70px;
+}
+/* 전체 */
+#signUp{
+  background-color: pink;
+  width: 400px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ /* 밑에두개 의미** */
+ margin:50px auto ;
+   padding: 20px;
+
 }
 /* 개인정보 */
+fieldset{
+  border: 2px solid #3333339a;
+  padding: 20px;
+}
 
+
+
+/* 적는박스 */
+.fild-1{
+  width: 300px;
+}
+ .fild-1 label{ 
+  display: inline-block;
+  width: 60px;
+}
+
+
+
+/* 체크박스 */
+.fild-2{
+  width: 300px;
+}

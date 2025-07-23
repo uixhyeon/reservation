@@ -42,7 +42,7 @@ a {
   padding: 20px 0;
 }
 .navi ul li > a:hover {
-  background-color: darkcyan;
+  background-color: rgba(0, 139, 139, 0.815);
   color: #fff;
   border-radius: 70px;
 }
@@ -57,7 +57,7 @@ a {
     width: 170px;
 }  */
 
-  /* ㅎㅎ 안댐.. 됐다 !띄워쓰기 중요*/
+/* ㅎㅎ 안댐.. 됐다 !띄워쓰기 중요*/
 .container {
   display: flex;
   flex-direction: column;
@@ -73,15 +73,15 @@ a {
   padding: 20px;
   border-radius: 30px;
 }
-#intro:target{
-background-color: lightseagreen;
-color: #fff;
+#intro:target {
+  background-color: lightseagreen;
+  color: #fff;
 }
-#room:target{
-background-color: lightseagreen;
-color: #fff;
+#room:target {
+  background-color: lightseagreen;
+  color: #fff;
 }
-#reservation:target{
-background-color: lightseagreen;
-color: #fff;
+#reservation:target {
+  background-color: lightseagreen;
+  color: #fff;
 }
