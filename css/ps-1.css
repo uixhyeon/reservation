@@ -48,38 +48,42 @@ a {
   border-radius: 70px;
 }
 /* 전체 */
-#signUp{
+#signUp {
   background-color: pink;
   width: 400px;
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 20px;
- /* 밑에두개 의미** */
- margin:50px auto ;
-   padding: 20px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  /* 밑에두개 의미** */
+  margin: 50px auto;
+  padding: 20px;
 }
 /* 개인정보 */
-fieldset{
+fieldset {
   border: 2px solid #3333339a;
   padding: 20px;
 }
-
-
-
 /* 적는박스 */
-.fild-1{
+.fild-1 {
   width: 300px;
 }
- .fild-1 label{ 
+.fild-1 label {
   display: inline-block;
   width: 60px;
 }
-
-
+/* 라벨(이름, 연락처 등) 폰트 크기 조절 */
+#singUp .user label {
+  font-size: 16px; /* 원하는 크기로 변경 */
+}
+#singUp .user input {
+  width: 250px; /* 원하는 너비 */
+  height: 60px; /* 원하는 높이 */
+  padding: 5px 10px; /* 여백 */
+  font-size: 12px; /*  인풋 안 글자 크기 */
+}
 
 /* 체크박스 */
-.fild-2{
+.fild-2 {
   width: 300px;
 }
